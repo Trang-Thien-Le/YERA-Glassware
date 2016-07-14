@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	font-family: "scha";
+	src:url(../Font/7404641221.ttf);
+}
+body{
+	background-image: url(../images/background2.jpg);
+	background-position:center top;
+}
+#header{
+	
+}
+#header #mHeader{
+	width: 960px;
+	height: 100px;
+	margin: 0px auto;
+}
+#header #mHeader .hLeft{
+	float: left;
+	margin-top: 20px;
+}
+#header #mHeader .hRight{
+	float: right;
+}
+#header #mHeader .hRight ul{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#header #mHeader .hRight ul li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'scha',cursive;
+	font-size: 16px;
+}
+#header #mHeader .hRight ul li img{
+	padding-right: 3px;
+}
+#header #mHeader .hRight p{
+	padding-left: 80px;
+}
+#header #mHeader .hRight ul li a{
+	text-decoration: none;
+	color: #e31e25;
+}
+#header #mHeader .logo{
+	position: relative;
+	top: 36px;
+	left: 72px;
+}
+#header .line1{
+	height:20px;
+	background-color: #e31e25;
+	width: 960px;
+	margin:auto;
+}
+#header .slide1{
+	width:960px;
+	margin:0px auto;
+}
+#header .slide1 object{
+	width:100%;
+}
+/*------------------------------nav--------------------------------*/
+#nav{
+	clear: both;
+	height: 82px;
+}
+#nav #mNav{
+	width: 960px;
+	margin: 0px auto;
+	background-image: url(../images/line2e2.jpg);
+	height: 82px;
+}
+#nav #mNav img{
+	margin-top: 10px;
+	padding-left: 63px;
+}
+#nav #mNav .nLeft{
+	float: left;
+}
+#nav #mNav .nLeft ul{
+	margin-top: 30px;
+}
+#nav #mNav .nLeft ul li{
+	display: inline;
+	padding-left: 27px;
+	padding-right: 27px;
+	font-size:20px;
+	font-family: 'scha',cursive;
+}
+#nav #mNav .nLeft ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+#nav #mNav .nRight{
+	float: right;
+}
+#nav #mNav .nRight ul{
+	margin-top: 30px;
+}
+#nav #mNav .nRight ul li{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 27px;
+	font-size:21px;
+}
+#nav #mNav .nRight ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+/*------------------------------info--------------------------------*/
+#info{
+	clear: both;
+	height: 710px;
+}
+#info #mInfo{
+	width: 960px;
+	margin: 0px auto;
+}
+#info #mInfo .fbox{
+	margin-top: 20px;
+}
+#info #mInfo .fbox .sbox{
+	width: 32%;
+	background-image:url(../images/trans.png);
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	height: 300px;
+	float:left;
+	padding-top: 30px;
+	margin-left: 9px;
+	margin-right: 9px;
+	font-family: 'scha',cursive;
+}
+#info #mInfo .fbox .sbox .top a{
+	text-decoration: none;
+	color: #ef4f52;
+}
+#info #mInfo .fbox .sbox .top .glassi{
+	width: 30%;
+	float: left;
+	padding-left: 20px;
+}
+#info #mInfo .fbox .sbox .top p{
+	width: 60%;
+	float: right;
+}
+#info #mInfo .fbox .sbox .top .text{
+	padding-top: 15px;
+}
+#info #mInfo .fbox .sbox .bottom{
+	padding-top: 30px;
+	clear: both;
+}
+#info #mInfo .fbox .sbox .bottom .glassr{
+	width: 35%;
+	float: left;
+	padding-left: 10px;
+}
+#info #mInfo .fbox .sbox .bottom p{
+	width: 52%;
+	float: right;
+	padding-right: 22px;
+}
+#info #mInfo .fbox .sbox .more{
+	clear: both;
+	padding-left: 210px;
+	padding-top: 20px;
+}
+#info #mInfo .fbox .sbox .more a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#info #mInfo .fbox .sbox2{
+	width: 32%;
+	background-image:url(../images/trans.png);
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	height: 300px;
+	float:left;
+	padding-top: 30px;
+	font-family: 'scha',cursive;
+}
+#info #mInfo .fbox .sbox2 .top a{
+	text-decoration: none;
+	color: #ef4f52;
+}
+#info #mInfo .fbox .sbox2 .top .glassi{
+	width: 30%;
+	float: left;
+	padding-left: 20px;
+}
+#info #mInfo .fbox .sbox2 .top p{
+	width: 60%;
+	float: right;
+}
+#info #mInfo .fbox .sbox2 .top .text{
+	padding-top: 15px;
+}
+#info #mInfo .fbox .sbox2 .bottom{
+	padding-top: 30px;
+	clear: both;
+}
+#info #mInfo .fbox .sbox2 .bottom .glassr{
+	width: 35%;
+	float: left;
+	padding-left: 10px;
+}
+#info #mInfo .fbox .sbox2 .bottom p{
+	width: 52%;
+	float: right;
+	padding-right: 22px;
+}
+#info #mInfo .fbox .sbox2 .more{
+	clear: both;
+	padding-left: 210px;
+	padding-top: 40px;
+}
+#info #mInfo .fbox .sbox2 .more a{
+	text-decoration: none;
+	color: #FFF;
+}
+#info #mInfo .line3{
+	padding-left: 160px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#info #mInfo .line4{
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*------------------------------footer--------------------------------*/
+#footer{
+	clear: both;
+	height: 90px;
+	background-color: #e31e25;
+}
+#footer #mFooter{
+	width: 960px;
+	margin: 0px auto;
+	background-color: #e31e25;
+	height: 90px;
+	margin: 20px auto 0px auto;
+	font-family: 'scha',cursive;
+	
+}
+#footer #mFooter .fLeft{
+	float: left;
+	width: 75%;
+}
+#footer #mFooter .fLeft .add{
+	margin-left: 10px;
+	float:right;
+	width: 30%;
+	margin-right: 90px;
+	margin-top: 10px;
+}
+#footer #mFooter .fLeft .add .con{
+	font-size: 17px;
+	color:#FFF;
+	pading-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+#footer #mFooter .fLeft .add .text{
+	font-size: 13px;
+	color:#FFF;
+}
+#footer #mFooter .fLeft .ficon{
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+	width: 30%;
+}
+#footer #mFooter .fLeft .copy{
+	color:#FFF;
+	font-size:11px;
+	padding-top: 8px;
+	padding-left: 30px;
+}
+#footer #mFooter img{
+	padding-left: 10px;
+}
+#footer #mFooter .fRight{
+	float: right;
+	width: 20%;
+}
+#footer #mFooter .fRight .search{
+	margin-right: 15px;
+	background-color: #FFF;
+	height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 5px;
+	padding: 3px;
+	border:#999999 solid 1px;
+}
+#footer #mFooter .fRight .search input{
+	border:none;
+	border-left:#999999 solid 1px;
+	margin-bottom: 3px;
+	width: 120px;
+	height: 20px;
+}
+#footer #mFooter .fRight .top{
+	padding-top: 8px;
+	padding-bottom: 7px;
+	padding-left: 120px;
+}
+
